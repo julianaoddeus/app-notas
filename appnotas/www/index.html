@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>APP NOTAS</title>
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <main class="container">
+        <h1>APP NOTAS</h1>
+
+        <div class="row">
+            <div class="col">
+                <textarea name="" id="anotacao" rows="5" class="form-control" placeholder="escrever aqui sua anotação"></textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col mt-3 text-center">
+                <button type="button" class="btn btn-primary" id="salvar">SALVAR</button>
+            </div>
+        </div>
+
+        <div class="row mt-5 bg-info ">
+            <div class="col lg-12"><h2>ANOTAÇÕES SALVAS</h2></div>
+            <div class="col lg-12" id="anotacoes-salvas"></div>
+        </div>
+
+    </main>
+
+    <script src="./bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

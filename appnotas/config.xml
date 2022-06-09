@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.julianaoliveira.appnotas" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>APP notas</name>
+    <name>APP NOTAS</name>
     <description>Aplicação de notas</description>
-    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+    <author email="julianaddeus@gail.com " href="https://julianaoddeus.io">
         Apache Cordova Team
     </author>
-    <icon src="icon.png"/>
+    <icon src="res/icon.png" />
+    <preference name="SplashScreen" value="screen" />
+    <splash src="res/splash.jpg" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
