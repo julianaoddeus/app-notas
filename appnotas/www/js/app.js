@@ -8,4 +8,5 @@ function SalvarAnotacoes(){
 
 document.getElementById('salvar').addEventListener('click', function(){
   SalvarAnotacoes();
+  navigator.vibrate([1000,1000,1000]);
 })
